@@ -27,6 +27,8 @@ typedef enum instructions
     SLLI,
     SRLI,
     SRAI,
+    LUI,
+    AUIPC,
 } Instructions;
 typedef enum InstructionType
 {

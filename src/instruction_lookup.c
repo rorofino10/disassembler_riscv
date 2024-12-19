@@ -18,6 +18,8 @@ const CompactEntry rv32i_base_instruction_set[] = {
     ENTRY(0x13, 0x5, 0x20, SRAI, "srai", IShift),
     ENTRY(0x13, 0x6, 0x00, ORI, "ori", I),
     ENTRY(0x13, 0x7, 0x00, ANDI, "andi", I),
+    ENTRY(0x17, 0x0, 0x00, AUIPC, "auipc", U),
+    ENTRY(0x37, 0x0, 0x00, LUI, "lui", U),
     ENTRY(0x33, 0x0, 0x00, ADD, "add", R),
     ENTRY(0x33, 0x0, 0x20, SUB, "sub", R),
     ENTRY(0x33, 0x1, 0x00, SLL, "sll", R),
@@ -32,20 +34,34 @@ const CompactEntry rv32i_base_instruction_set[] = {
 
 const InstructionEntry instruction_lookup(__uint8_t opcode, __uint8_t f3, __uint8_t f7)
 {
-    __uint32_t key = KEY(opcode, f3, f7);
-    __uint32_t ikey = KEY(opcode, f3, 0);
+    __uint32_t akey = KEY(opcode, f3, f7);
+    __uint32_t bkey = KEY(opcode, f3, 0);
+    __uint32_t ckey = KEY(opcode, 0, 0);
     __uint32_t key_to_use;
-    const CompactEntry *array = rv32i_base_instruction_set;
     for (size_t i = 0; i < sizeof(rv32i_base_instruction_set) / sizeof(rv32i_base_instruction_set[0]); i++)
     {
-        if (rv32i_base_instruction_set[i].entry.instruction_type == I)
-            key_to_use = ikey;
-        else
-            key_to_use = key;
-        if (rv32i_base_instruction_set[i].key == key_to_use)
+        InstructionType type = rv32i_base_instruction_set[i].entry.instruction_type;
+        switch (type)
         {
-            return rv32i_base_instruction_set[i].entry;
+        case R:
+        case IShift:
+            key_to_use = akey;
+            break;
+        case I:
+        case S:
+        case B:
+            key_to_use = bkey;
+            break;
+        case U:
+            key_to_use = ckey;
+            break;
+        default:
+            key_to_use = ckey;
+            break;
         }
+        if (rv32i_base_instruction_set[i].key == key_to_use)
+            return rv32i_base_instruction_set[i].entry;
     }
     return (InstructionEntry){0};
-};
+    ;
+}

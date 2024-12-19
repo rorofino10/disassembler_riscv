@@ -16,3 +16,5 @@ ori sp, sp, 16
 slli t2, t1, 5
 srli t6, t1, 31
 srai s0, s1, 1
+lui ra, 0x48
+auipc t6, 0x48
