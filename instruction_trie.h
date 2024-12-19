@@ -3,35 +3,20 @@
 
 #include "instructions_definitions.h"
 #include <stdio.h>
-struct F7Node
+typedef struct
 {
-    InstructionType type;
     Instructions instruction;
-};
+    InstructionType instruction_type;
+    const char *instruction_name;
+    int valid;
+} InstructionEntry;
 
-struct F3Node
+typedef struct
 {
-    InstructionType type;
-    Instructions instruction;
-    int has_data;
-    struct F7Node *f7node_list[128];
-};
+    __uint32_t key;
+    InstructionEntry entry;
+} CompactEntry;
 
-struct OpcodeNode
-{
-    InstructionType type;
-    Instructions instruction;
-    int has_data;
-    struct F3Node *f3node_list[8];
-};
-
-typedef struct InstructionTrie
-{
-    struct OpcodeNode *opcode_list[128];
-} InstructionTrie;
-
-InstructionTrie *empty_trie();
-InstructionTrie *rv32i_base_instruction_set();
-void add_instruction(__uint8_t opcode, __uint8_t f3, __uint8_t f7, int depth, InstructionType type, Instructions instruction, InstructionTrie *trie);
-void get_instruction(__uint8_t opcode, __uint8_t f3, __uint8_t f7, InstructionType *type, Instructions *instruction, InstructionTrie *trie);
+extern const CompactEntry rv32i_base_instruction_set[];
+const InstructionEntry instruction_lookup(__uint8_t opcode, __uint8_t f3, __uint8_t f7);
 #endif // INSTRUCTIONS_TRIE_H

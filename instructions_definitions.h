@@ -43,6 +43,8 @@ typedef struct InstructionData
 {
     Instructions instruction;
     InstructionType instruction_type;
+    const char *instr_str;
+    int valid;
     int a;
     int b;
     int c;

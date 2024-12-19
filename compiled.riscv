@@ -6,8 +6,8 @@ sltu ra, sp, gp
 xor ra, sp, gp
 srl ra, sp, gp
 sra ra, sp, gp
-or ra, sp, gp
 and ra, sp, gp
+or ra, sp, gp
 addi sp, sp, -16
 slti sp, sp, 16
 sltiu sp, sp, 16
