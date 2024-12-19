@@ -3,6 +3,7 @@
         "instructions.h": "c",
         "stdlib.h": "c",
         "string.h": "c",
-        "instruction_trie.h": "c"
+        "instruction_trie.h": "c",
+        "instruction_lookup.h": "c"
     }
 }

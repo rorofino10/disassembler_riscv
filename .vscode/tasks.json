@@ -3,9 +3,11 @@
         {
             "type": "shell",
             "label": "Run Dissamsembler",
-            "command": "/home/nynmiz/allaboutc/disassembler_riscv/main < input.o > compiled.riscv",
+            "command": "dist/disassembler < input.o > compiled.riscv",
             "args": [],
-            "options": {},
+            "options": {
+                "cwd": ""
+            },
             "group": {
                 "kind": "test",
                 "isDefault": true
@@ -57,12 +59,12 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${fileDirname}/**.c",
+                "src/**.c",
                 "-o",
-                "${fileDirname}/main"
+                "dist/disassembler"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": ""
             },
             "problemMatcher": [
                 "$gcc"
