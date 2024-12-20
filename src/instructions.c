@@ -8,24 +8,13 @@
  */
 int sext(__uint32_t in, int n)
 {
-    // MEJORAR SEXT
-    switch (n)
+    __uint32_t mask = 0;
+    for (size_t i = n; i < 32; i++)
     {
-    case 12:
-        if (in >> 11 == 1)
-            return in | 0xFFFFF000;
-        break;
-    case 13:
-        if (in >> 12 == 1)
-            return in | 0xFFFFE000;
-        break;
-    case 20:
-        if (in >> 19 == 1)
-            return in | 0xFFF00000;
-        break;
-    default:
-        break;
+        mask |= 1 << i;
     }
+    if (in >> (n - 1) == 1)
+        return in | mask;
     return in;
 }
 void extract_instruction(__uint32_t instruction, InstructionData *instruction_data)
@@ -93,14 +82,19 @@ void extract_u_instruction_data(__uint32_t instruction, InstructionData *instruc
 {
     UInstructionData *data = &instruction_data->data.u_instruction_data;
 
-    data->imm = sext(instruction >> 12, 20);
+    data->imm = sext(instruction >> 12, 21);
     data->rd = (instruction >> 7) & RegisterMASK;
 }
 void extract_j_instruction_data(__uint32_t instruction, InstructionData *instruction_data)
 {
-    UInstructionData *data = &instruction_data->data.u_instruction_data;
+    JInstructionData *data = &instruction_data->data.j_instruction_data;
+    __uint32_t imm_temp = 0;
+    imm_temp |= ((instruction >> 20) & 1) << 11;
+    imm_temp |= (instruction >> 31) << 20;
+    imm_temp |= ((instruction >> 21) & 0x3FF) << 1;
+    imm_temp |= ((instruction >> 12) & 0xFF) << 12;
 
-    data->imm = sext(instruction >> 12, 20);
+    data->imm = sext(imm_temp, 21);
     data->rd = (instruction >> 7) & RegisterMASK;
 }
 
@@ -130,7 +124,7 @@ void extract_instruction_data(__uint32_t instruction, InstructionData *instructi
         extract_u_instruction_data(instruction, instruction_data);
         break;
     case J:
-        // extract_j_instruction_data(instruction, instruction_data);
+        extract_j_instruction_data(instruction, instruction_data);
         break;
     default:
         break;
@@ -159,6 +153,9 @@ void print_instruction(InstructionData *instruction_data)
         break;
     case U:
         printf("%s %s, 0x%x\n", instruction_data->string, get_register_name(instruction_data->data.u_instruction_data.rd), instruction_data->data.u_instruction_data.imm);
+        break;
+    case J:
+        printf("%s %s, %d", instruction_data->string, get_register_name(instruction_data->data.j_instruction_data.rd), instruction_data->data.j_instruction_data.imm);
         break;
     default:
         break;

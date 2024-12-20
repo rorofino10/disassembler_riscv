@@ -1,1000 +1,1000 @@
-bge a3, s3, 1350
-bltu s8, t0, 172
-bltu s8, tp, -874
-slt a1, tp, s4
-sb s5, 271(a3)
-auipc s1, 0x72300
-auipc t4, 0x5de00
-addi tp, s9, 374
-auipc ra, 0x53500
-lui s1, 0x49e00
-sw tp, 759(s11)
-bge tp, t5, 3178
-sh a4, 1103(gp)
-slti s3, tp, 275
-and sp, s3, ra
-auipc t2, 0x54000
-sw s10, 254(s10)
-sltu sp, s1, zero
-xor a1, a1, s1
-bge t1, t5, -632
-sb gp, 1652(a3)
-beq s6, s4, -3994
-lui s5, 0x6af00
-and a7, s0, a2
-srl t4, t2, s8
-auipc s8, 0x69500
-sw s4, 1729(t0)
-auipc t6, 0x3f500
-sltiu a5, s8, -689
-blt a0, s7, 3488
-sb a2, 692(ra)
-or a3, a6, zero
-slti s8, a5, 535
-bne t6, s5, 1494
-lui s11, 0x35900
-sh s11, 1932(a6)
-beq a1, a5, 2284
-bgeu t5, a1, 92
-bltu s9, t0, -922
-sw a1, 9(t1)
-sw ra, 324(s8)
-ori gp, s9, 1384
-sw s5, 767(t2)
-auipc t5, 0x2bf00
-bgeu a7, a1, 3480
-bltu s8, s0, 86
-sh s1, 1526(t3)
-auipc s1, 0xae00
-bne a7, a6, 2144
-sh a2, 371(t2)
-sltu s5, zero, s11
-xori s4, s10, -1246
-srli s8, t0, 17
-slt s10, a5, t0
-bne s8, s4, -638
-sh t6, 1614(s10)
-sh s10, 264(ra)
-xor a2, a2, t4
-sltiu s8, s0, -1256
-addi t2, t3, 1899
-sra s3, a6, s4
-slli s7, a1, 17
-bgeu s0, ra, -1880
-bltu s5, a1, -1948
-beq s8, t5, 3216
-bltu a0, t1, 102
-xor t5, s2, s2
-lui t6, 0xef00
-sh sp, 322(ra)
-auipc t6, 0xfffdce00
-bltu a6, a4, -806
-sltiu a0, ra, -669
-lui a3, 0xfffebc00
-auipc zero, 0x3ae00
-sra s8, sp, s7
-beq a4, s1, -962
-lui s4, 0xfff98200
-slt s8, t3, t3
-sra s9, tp, s1
-lui s9, 0xfff9cf00
-sw a1, 1486(t3)
-sb t2, 506(s3)
-ori s8, a2, -1725
-auipc s8, 0x4f300
-auipc s9, 0xfffa6700
-lui a3, 0xfffde400
-sh t0, 193(s8)
-auipc a6, 0x22c00
-lui s11, 0x64900
-blt s10, zero, 2218
-sll s3, s10, s10
-sb s10, 1407(s8)
-beq t4, s3, 3254
-sh t1, 1916(s11)
-auipc gp, 0xfff92b00
-bgeu a2, t1, 3376
-addi gp, a5, 1948
-sw s9, 453(a0)
-bltu a5, a1, 2472
-sw t1, 1267(a3)
-bge s4, t2, 234
-slt s2, s8, t5
-bltu a1, s4, 1118
-xori s7, s8, -456
-sw ra, 648(t1)
-sh a1, 1521(t2)
-lui a6, 0xfffaa200
-lui zero, 0x4a300
-sltiu t1, s3, -1038
-bgeu tp, s8, -1018
-sh t4, 58(t6)
-sh zero, 1739(s3)
-sltu s8, a7, gp
-lui s4, 0xfffabf00
-sh s4, 711(a4)
-slti zero, s11, -2008
-or a0, s10, s3
-auipc sp, 0x62100
-bge s3, s1, -758
-slti t5, s8, -30
-blt zero, a4, 3116
-srl a1, a7, a0
-auipc s1, 0xfff88200
-lui a1, 0x44a00
-addi s10, a5, 1425
-lui gp, 0xffff0e00
-sh t1, 1717(t1)
-sw gp, 833(a7)
-xor a1, a5, s8
-bge s3, t4, -2016
-beq s7, a7, 102
-auipc a4, 0xfffa6000
-bge s2, ra, 3350
-xori s10, s3, 1516
-sw t4, 975(a6)
-slti tp, s3, -344
-lui a4, 0xfffd0700
-bltu s5, t5, -562
-ori s0, a3, -296
-sb s8, 2036(s7)
-lui s5, 0xfffeff00
-xor a1, s7, s9
-sh t2, 1154(a3)
-and tp, t0, a3
-beq gp, s5, 212
-xori a2, gp, -121
-bge s11, s0, -2860
-andi a7, a1, -1045
-sb s0, 1721(s9)
-bne a0, t2, 1106
-bne s11, a3, -2000
-blt s0, gp, 436
-sh gp, 889(a0)
-sltu t0, a3, s7
-sltu s4, s1, a4
-auipc a6, 0xfffeec00
-lui a4, 0xfffc7400
-andi s4, s3, -475
-slli a3, t2, 4
-lui s0, 0xffff5300
-blt s8, a1, 1284
-sb s9, 325(a5)
-slti t2, a6, 143
-sb s10, 1868(t4)
-bge t3, t3, -636
-bne t5, a3, 2204
-sw s4, 1339(tp)
-and a5, t0, t4
-auipc a3, 0xfff9c700
-bge s5, a4, 92
-sb t6, 1609(t1)
-sh s8, 322(a6)
-auipc a3, 0x50600
-bne t4, s7, 3210
-lui s5, 0x1b400
-auipc t0, 0xfffb0e00
-bltu s5, ra, 1382
-bne a2, a6, -3868
-slli s0, a1, 24
-or zero, s9, s8
-ori s10, a1, 1131
-and a7, s11, s1
-sh t1, 1347(a6)
-beq a7, s6, -938
-beq s10, a0, 3180
-sh zero, 66(a3)
-addi s3, a0, 203
-sb t3, 1725(a0)
-slt s1, t1, a0
-sh s2, 1157(s2)
-andi a2, a6, 1149
-addi s7, a3, 1024
-sltu s8, sp, s4
-or zero, ra, gp
-sb t2, 522(a7)
-lui zero, 0xfffaa300
-and zero, sp, s4
-addi t0, gp, 1423
-sltiu t0, a5, -1633
-slt a6, sp, t2
-xor zero, s11, t6
-ori a0, t5, -616
-sra s9, s6, s11
-bgeu tp, t4, -1908
-lui s9, 0x52200
-bltu a7, t4, 1074
-ori a1, s7, 5
-sw s0, 1456(s10)
-lui s3, 0x2c900
-sh t2, 1200(s3)
-blt s11, t5, -3814
-slli s2, s10, 21
-sw s10, 1016(t1)
-bgeu t4, t1, 3166
-lui s3, 0x77300
-auipc s5, 0xfffe1100
-srl s1, s2, s0
-sb s2, 1546(a7)
-sb ra, 1482(ra)
-lui s8, 0xfffcb700
-ori a1, sp, -1224
-blt s7, s7, 1462
-auipc a3, 0x36b00
-auipc t4, 0xfff94d00
-andi t5, gp, 194
-xori s4, a0, 989
-slt s11, a4, s6
-sh s9, 1725(s1)
-blt s0, t2, 1278
-or s2, sp, gp
-lui tp, 0x9a00
-sltu s3, ra, s11
-sh zero, 185(ra)
-sb ra, 700(a5)
-lui s9, 0xfffea200
-addi s7, a6, 1225
-sb t1, 696(t3)
-xori a0, t2, 1627
-sw a5, 55(tp)
-beq gp, t3, -3850
-and a5, a7, t4
-sb s6, 1156(gp)
-bge t0, a0, 3262
-sh a1, 325(s3)
-bne s5, a2, -752
-sh a6, 1862(s3)
-slt zero, s5, s9
-sll s2, t5, tp
-bltu a3, zero, -3050
-bge s4, s8, 2158
-addi zero, t6, 396
-lui t3, 0xfffdcd00
-auipc a2, 0xfffb9100
-bge s0, a6, 362
-sh gp, 1665(s3)
-bge t5, s8, 1116
-sub s0, zero, t1
-auipc s8, 0xfff84100
-addi t5, ra, -1751
-addi t2, s2, -1217
-auipc a0, 0x42600
-bgeu tp, s7, -942
-srli a1, s10, 10
-sw s8, 1534(t6)
-bgeu t3, a0, 1442
-and t0, sp, s7
-sra tp, a2, s2
-addi t6, s5, 1921
-lui a0, 0x4b600
-bgeu a5, s11, -3932
-bge a2, s1, -992
-sltu t6, a0, a0
-slli a4, s2, 22
-sw t5, 1295(s1)
-sltiu s4, s10, -441
-auipc zero, 0x4f800
-and s7, s0, s2
-xor a1, gp, zero
-lui tp, 0xfffa2500
-or a5, s9, s1
-auipc s1, 0xffff9800
-auipc zero, 0xfffe0200
-bltu t0, t4, -4030
-lui gp, 0x23f00
-xori t1, s1, 1149
-auipc a2, 0x7c900
-sll s2, a0, a4
-lui t1, 0x22200
-xor sp, t6, s1
-ori t5, zero, -1256
-slti t2, zero, -1411
-sh s0, 8(t6)
-or t6, a2, zero
-xor gp, t4, t0
-xor a5, s5, s6
-xor s4, t1, t1
-beq ra, s6, 398
-auipc t4, 0xfff8d700
-bne s2, s9, -2590
-ori s6, ra, 1278
-and a1, t5, a1
-lui s1, 0xfffeda00
-sw s0, 53(tp)
-sub t6, s6, a3
-slli a1, t1, 22
-sh gp, 566(s4)
-addi s8, s6, -495
-lui a7, 0xfffc5c00
-or zero, zero, s4
-srli a2, s1, 20
-and ra, s11, a3
-auipc a7, 0xfffd2c00
-sb gp, 1472(t6)
-blt a6, t1, -3718
-sb s7, 507(t5)
-xori t1, t2, 1014
-bltu s1, gp, 2174
-sh t6, 1481(s5)
-auipc a6, 0x69f00
-beq s1, s11, -3668
-blt s7, a4, 3386
-blt gp, sp, -2788
-blt t5, t3, 2188
-bge t4, a0, -2894
-andi a0, s4, -724
-bne a3, s11, -1892
-auipc a5, 0xfff87e00
-slti s0, s8, 766
-sub a6, a7, s10
-ori ra, t6, 318
-lui t4, 0x5c000
-sb a4, 1844(t1)
-ori t3, a7, -1169
-sb s6, 517(s1)
-sh t0, 651(a5)
-auipc s10, 0x7fe00
-srli t1, t6, 12
-lui s1, 0xfffa5f00
-sltiu s8, sp, 917
-bge s7, a7, -1752
-lui a3, 0xfffb3e00
-beq s11, ra, -3072
-lui a5, 0xfff99200
-lui s7, 0xfffef800
-add a2, s6, s11
-sh s10, 1933(s10)
-and s10, s5, s1
-xor tp, ra, s11
-sh a0, 1478(t2)
-lui s6, 0x58400
-ori ra, sp, 1381
-sb s11, 1295(gp)
-or s7, s6, t5
-bge gp, t4, 1274
-or a1, t2, t1
-sh s1, 184(t3)
-slli s6, t1, 3
-sb a7, 651(s6)
-srli t3, s3, 5
-sb t5, 326(a7)
-lui t5, 0xfffd3700
-lui s4, 0x2300
-ori a2, a1, -111
-blt s1, t1, 1132
-bne gp, s3, 3344
-lui a4, 0x59200
-bgeu s10, t0, 2486
-slli t3, a6, 19
-srli s6, s1, 15
-sh a3, 1550(ra)
-bltu t0, a3, -836
-sw zero, 1987(s1)
-lui a2, 0xfffd7f00
-sw t4, 1524(t4)
-and t6, s7, sp
-sw s1, 1334(t1)
-sltiu t3, tp, -484
-auipc a7, 0x67c00
-auipc tp, 0xfffee500
-sh s6, 753(s8)
-auipc a5, 0xd600
-bltu a4, tp, -1746
-slt ra, a2, t4
-bgeu a2, t1, 1458
-sb s0, 1393(s3)
-slli s1, t0, 28
-slli t4, s2, 14
-sh s10, 899(t3)
-lui t6, 0x12200
-blt t0, s7, 228
-sh a6, 1740(a1)
-auipc a1, 0xfffa8a00
-bge s3, s2, -3590
-or t3, a5, sp
-lui a6, 0xfffee800
-andi s3, s9, -1638
-lui a3, 0xfff8d700
-auipc t1, 0xfffea600
-and s4, t0, a5
-sw s6, 512(a1)
-lui a1, 0x70600
-lui s10, 0x59600
-sll t0, a0, t5
-bgeu t2, s2, -1686
-addi sp, ra, 61
-bltu t4, t2, 2272
-sw gp, 438(t4)
-sw a2, 1218(zero)
-sh tp, 1229(a5)
-sltu s3, t5, a5
-lui a3, 0xfffe1600
-or zero, s2, t6
-sw s4, 1782(t4)
-sb s7, 640(s11)
-sb gp, 1140(a4)
-auipc a4, 0x75d00
-slt s9, s4, s6
-bne a0, s7, -3606
-slt sp, s8, s0
-lui a3, 0xfffff700
-blt a0, a1, -948
-sw tp, 1463(a7)
-lui a1, 0xfffe3100
-beq zero, a0, 3432
-sltiu a5, ra, 493
-addi t3, s6, 449
-lui ra, 0x65700
-bltu s10, a0, 432
-srli a5, s11, 19
-addi ra, s7, 310
-sltiu s5, t3, 390
-auipc s0, 0x7ca00
-bge s1, s4, 2494
-sb t0, 1038(a7)
-sra tp, s11, s8
-sll t2, tp, t6
-bltu s5, t5, 166
-slt s8, s10, s6
-bltu s5, gp, -2942
-slli a6, s9, 12
-bge ra, s5, -2708
-sh t3, 393(s6)
-sw s11, 9(tp)
-xori s10, s5, 474
-ori s3, a1, -1934
-bltu tp, zero, -1662
-auipc ra, 0x48800
-slli s0, a4, 20
-srl a0, a6, a5
-blt a3, s0, -3878
-sra s10, s8, zero
-srli t5, a2, 16
-lui tp, 0x5ad00
-slti s7, a2, -1571
-bge s1, t5, 1436
-auipc t6, 0xfff9fd00
-xori s2, a5, -735
-bgeu a0, a3, -684
-slt tp, t2, s10
-lui a3, 0x45c00
-beq s0, a2, 3318
-sb t3, 449(a3)
-bne a1, zero, -1980
-slti t0, s1, 524
-andi s9, s1, 986
-xor s11, a1, a4
-auipc s1, 0x9300
-sll zero, ra, a2
-sltu s0, a0, s6
-sh s6, 1981(t1)
-auipc tp, 0xfffc6e00
-sb gp, 1612(s10)
-sw ra, 496(s2)
-bltu a7, a5, -798
-sw ra, 961(s5)
-sltiu t5, t4, 966
-sb zero, 74(tp)
-slli s8, s4, 23
-lui s0, 0x36c00
-lui t0, 0x67800
-auipc t3, 0x48200
-and gp, s4, s0
-sltu t3, t2, s3
-bgeu s10, s5, 1316
-auipc s6, 0x31a00
-sub t5, a6, a3
-lui a3, 0xfff80700
-lui s9, 0x33900
-and a3, t3, t3
-or t4, s2, a3
-lui t3, 0x47f00
-srl a6, a4, s10
-sw t0, 1859(a7)
-sll s11, a4, sp
-sh t4, 1549(a2)
-sb t2, 2039(t5)
-bgeu zero, ra, 3238
-or gp, a1, a2
-andi t2, t6, -765
-sra t5, a1, t6
-sw zero, 1733(s11)
-sw a5, 1927(s2)
-sh a6, 1095(t6)
-beq t5, t0, -3758
-beq a6, a4, 180
-bne s2, s5, -2732
-auipc zero, 0xfffe3f00
-or t4, s4, a5
-lui s10, 0xfffbbf00
-bgeu t5, a2, 1116
-sh t3, 756(s10)
-bne a2, s9, -830
-bge a1, s1, -3820
-sb s6, 640(s2)
-add tp, a3, a6
-sll s7, t4, a5
-lui s6, 0xfffd0e00
-sll t1, s6, s1
-lui t0, 0xfff9cf00
-auipc s8, 0x17d00
-andi sp, t1, 1300
-slt s1, ra, zero
-lui s0, 0x6c500
-andi t4, tp, -1344
-sb a3, 1401(a2)
-bltu s9, zero, -552
-srl s3, t4, zero
-lui s4, 0x3ab00
-slti a0, t1, -1749
-sb s10, 950(s2)
-auipc a6, 0x12900
-lui s5, 0xfff9bf00
-auipc a3, 0x2bf00
-auipc s0, 0x63300
-sw a4, 911(tp)
-add s8, s9, s5
-auipc t3, 0xfff88c00
-lui sp, 0x3da00
-bgeu a4, s2, -3884
-srli a6, t3, 12
-auipc t2, 0xfffd1000
-slti s11, s3, 178
-bltu a0, zero, 200
-sub t4, a2, s4
-ori s9, a1, 1610
-sh t1, 1785(s3)
-sb s7, 2037(t6)
-or gp, s10, s3
-sw ra, 1731(s5)
-lui a0, 0xffffaf00
-sh s6, 632(t3)
-slti sp, t5, -285
-sltu s8, s3, zero
-sb s11, 305(s7)
-xor s5, t4, t5
-sh ra, 1919(s8)
-bne t1, t6, -3818
-add s0, s4, s6
-auipc s4, 0xfff94c00
-auipc t4, 0xfffb3e00
-sub s1, ra, a4
-bltu s1, t0, -596
-lui t0, 0x9400
-andi a1, ra, 381
-bne s5, t1, 3084
-srli s3, s2, 16
-sb zero, 311(a3)
-xori s10, ra, 610
-sb s1, 837(s11)
-auipc s0, 0x3ec00
-bgeu s9, t6, 324
-sw t5, 964(s9)
-and t3, t5, t3
-sb s3, 717(s4)
-bne s9, s0, 3406
-sh a7, 1085(s9)
-auipc s7, 0xffff1f00
-lui tp, 0x77d00
-auipc a5, 0xfff8f700
-beq t3, a4, 2310
-or t0, a7, zero
-sw zero, 1035(a2)
-auipc t6, 0x7b200
-beq s0, s4, 2454
-bne ra, s3, 10
-bltu s7, s4, -2774
-sb t0, 1025(t6)
-sltiu zero, t2, -400
-sw a7, 1404(s1)
-bge t2, gp, -2780
-lui t0, 0x2fb00
-auipc a7, 0xfff9d200
-lui tp, 0xfff94000
-sltu s1, t4, a6
-lui s4, 0x2fe00
-xori a6, t6, 1249
-sll t5, s6, tp
-sll a0, t4, t6
-srli s8, ra, 10
-or s5, s9, t1
-and s0, s6, zero
-bne ra, s8, -1968
-xor s1, s10, s9
-xori s7, s1, 383
-slt a7, t4, s2
-blt ra, s0, 3170
-slli a0, s2, 29
-bltu t3, a0, 2500
-auipc t0, 0x1b700
-sll a2, gp, t1
-lui s4, 0xfffdbd00
-blt a2, a6, -2688
-slli a3, s5, 12
-lui a5, 0xfffe1500
-sb t4, 1551(a4)
-or tp, a5, t0
-bgeu ra, a2, 3516
-lui a0, 0xffff3400
-and tp, ra, s9
-sll t0, tp, a2
-sltu t4, zero, s2
-beq s11, t3, -822
-bgeu t6, sp, 3382
-sb s10, 1286(a6)
-bgeu ra, s1, 1102
-beq a2, t3, -3866
-srl s7, t4, t4
-sb s5, 324(t1)
-bne t6, a1, 1062
-auipc s6, 0xd100
-srli s1, s11, 11
-bgeu a7, t2, 3294
-auipc s10, 0xfff97500
-andi s6, a1, 1833
-auipc t5, 0x27200
-slli ra, t4, 10
-sb a2, 54(a3)
-sltiu a3, tp, 126
-ori tp, t5, 32
-andi s10, s9, 1312
-sll s2, t1, a4
-lui t0, 0xfffea300
-xor ra, ra, a0
-xor t0, s8, s5
-sb t0, 1714(a1)
-blt s0, gp, -2890
-auipc s3, 0xfffea200
-beq a3, a7, 2134
-bgeu s7, s5, 1238
-xor a5, s3, a5
-sra a7, s8, s1
-blt s10, s0, 1366
-xori zero, s6, -1375
-auipc s4, 0xfffbc600
-sw s11, 1858(a3)
-lui t1, 0x5d700
-sb a5, 1528(tp)
-and s0, s2, t4
-slti t5, a5, 28
-bgeu t4, s7, 2426
-addi s7, a5, -271
-sh s11, 2039(t3)
-beq s11, t0, -3610
-bltu t5, t6, 50
-beq s5, a4, 472
-ori t6, t5, 204
-and ra, s8, s11
-bgeu s11, t5, 1344
-auipc a2, 0xfffd3c00
-ori t3, s7, 70
-sh s10, 1678(a6)
-slli gp, t1, 21
-slt s8, t4, s8
-sw t1, 1266(s2)
-auipc a5, 0xfffbc900
-sh a2, 894(a2)
-lui a5, 0x74a00
-bgeu a1, a6, -1744
-sub s7, s5, s7
-add s6, s7, s7
-sw s11, 1289(s0)
-beq t2, s11, 1528
-lui t4, 0x18a00
-sltiu a5, a5, 433
-auipc a5, 0xfffe7200
-or a0, s10, t1
-addi s10, gp, -1313
-sw s8, 1863(a1)
-sw s6, 498(a4)
-sltu t6, s9, t5
-andi a2, t2, 218
-blt t3, a3, -1898
-srl s1, s9, tp
-xor t6, s4, a7
-srl a2, t5, t2
-sb s0, 317(t2)
-sb t6, 1987(s5)
-sub a7, t5, ra
-and s10, s7, s5
-sb t0, 76(s10)
-sw s5, 1675(s8)
-sub a7, a2, a7
-sh s9, 565(s5)
-lui a5, 0xfffafd00
-sb a6, 710(s11)
-srl s1, s9, s3
-blt s1, s9, 3264
-lui s6, 0x75c00
-sh a5, 1098(a6)
-slti a4, tp, 405
-sltiu s1, tp, -1239
-slti a4, s1, 732
-xori s7, a6, 489
-lui a3, 0x46000
-sw t0, 1271(t6)
-sltu t5, a7, gp
-andi a2, t4, 41
-lui a2, 0x3a000
-lui a2, 0x5200
-and s7, s4, t0
-bltu a7, s5, 76
-sw s1, 506(t4)
-auipc t6, 0xffff1200
-slli s0, s3, 21
-andi zero, a6, -870
-sh t2, 1716(t1)
-sh t3, 2034(a1)
-auipc t2, 0xfffc0600
-auipc a6, 0x62200
-and a5, tp, t3
-sw s11, 893(t3)
-sll s0, t6, s11
-sub s6, s7, t3
-bltu a5, tp, -1982
-sub t4, a7, s2
-bgeu t4, t0, 3284
-bltu ra, sp, -2576
-bltu t4, ra, 3118
-bgeu s4, s9, -1944
-lui a2, 0x30b00
-or a1, t2, a5
-andi s1, a1, 348
-and tp, s0, t5
-sll s0, s5, s3
-sw t2, 574(zero)
-slti a7, zero, -223
-sw s1, 374(gp)
-sh s7, 244(tp)
-blt gp, s9, 2302
-sh t0, 838(s7)
-addi zero, s1, -331
-sltu a7, s5, sp
-bge s7, s4, -3994
-sh s0, 1595(t1)
-sw a5, 1596(a6)
-andi s9, t5, 1742
-bne t6, s5, 1468
-sw a0, 1925(t2)
-sltiu t6, s5, -306
-bne s11, a2, -550
-bgeu a4, a1, -774
-sb t4, 766(s8)
-sh a6, 53(a1)
-bne a2, a1, 3164
-bne s8, a0, -3058
-sb s1, 1592(a2)
-sb a7, 585(a3)
-sll a5, s9, a0
-auipc s0, 0xfffa4300
-lui sp, 0xfffff000
-bgeu zero, s7, -566
-xor s7, ra, t5
-sb a4, 1865(a0)
-bltu s3, t3, -682
-bgeu t2, zero, -1728
-lui t6, 0xfffcdf00
-sb s7, 65(t6)
-blt s4, a5, -518
-sltiu sp, s4, 1829
-lui t6, 0x68d00
-srli a1, s10, 25
-sb a0, 450(sp)
-ori a3, s6, 1603
-lui sp, 0xfffa6700
-slt zero, a6, s4
-sltu s5, s0, a3
-auipc t2, 0x53c00
-and s2, a7, ra
-andi t5, s5, 814
-srl s11, tp, s1
-lui a0, 0xffffc200
-sw a5, 1722(a6)
-andi s8, t1, 11
-sb s1, 503(ra)
-auipc zero, 0x6e800
-blt s6, s7, 3396
-sb s8, 968(s7)
-lui ra, 0xfff83700
-xori t4, tp, 675
-bgeu t6, gp, 1434
-sltiu t4, s3, -1048
-bge zero, s1, 3540
-or a4, ra, a4
-xor s1, s5, s9
-or a4, s2, t4
-sw a4, 2(s0)
-or t3, s8, gp
-bge s5, a0, -1552
-sw a1, 1975(s3)
-bne a5, s11, -2988
-or a6, s9, t3
-sb s5, 1912(t3)
-sw t0, 1650(a0)
-auipc s0, 0x4de00
-slt t6, t5, t0
-auipc a3, 0xfff97500
-ori s0, s6, -694
-bne t5, s3, -3764
-ori s1, gp, 1104
-beq sp, a5, 1192
-bltu tp, t1, -2004
-sb t3, 1481(tp)
-sll t0, sp, a6
-sb a4, 204(s2)
-auipc a0, 0xfffb2900
-andi s9, s2, 156
-auipc s5, 0x7eb00
-sub s4, a4, a7
-sb a2, 697(a4)
-or t4, t2, s5
-sb s7, 1357(a0)
-sh ra, 1797(t0)
-auipc zero, 0xfff84400
-sb tp, 579(gp)
-or s7, a2, s8
-xori s7, t3, -2001
-slli ra, a0, 6
-addi a6, s5, 596
-blt t0, s11, -2012
-bne s1, t0, 3526
-add zero, a0, s3
-sb t5, 1295(s10)
-or s8, s4, a3
-xori s7, s8, -842
-bne s11, s9, -3874
-addi a4, sp, 403
-bge s5, a3, 394
-beq t6, s0, 3264
-sra ra, t2, a3
-or s8, s5, s9
-sw a6, 1295(t4)
-auipc t1, 0x30300
-srli sp, a3, 6
-blt s5, gp, 3314
-bgeu s8, s11, -3704
-sh s2, 9(a5)
-sh a5, 946(a0)
-and gp, s11, a5
-slti zero, a1, 1887
-add a4, a2, sp
-auipc tp, 0x2a200
-andi t6, s1, 422
-lui t5, 0x5000
-sh a5, 584(s4)
-sltu tp, zero, t5
-sub t5, s5, t5
-bgeu a2, s9, -1984
-xori s7, s8, -257
-sb t0, 1674(s7)
-beq a0, sp, -2970
-lui s7, 0x3100
-sltu s6, t6, s3
-beq a1, t5, -3050
-bne s2, s9, -2622
-sh s7, 1103(a0)
-sb s9, 1908(s5)
-auipc gp, 0xfffbf100
-auipc t6, 0xfff9ab00
-andi a2, a4, -1454
-sw zero, 2041(s3)
-slti s3, t1, -95
-sra s2, t1, s1
-auipc s9, 0x28800
-lui a3, 0xfff81600
-xori s0, a5, 1282
-auipc t1, 0xffff5000
-slt a4, s10, s1
-blt s1, s5, 3416
-sb a6, 1599(t1)
-auipc sp, 0x22c00
-sw s0, 323(s0)
-lui tp, 0xfffef900
-bltu t4, tp, -1592
-xor s3, s7, a6
-or t6, s6, a1
-add s4, sp, t1
-slli gp, s7, 24
-xori gp, t6, 1531
-addi s0, a2, -753
-lui s11, 0x29c00
-bgeu t4, t5, -3614
-add t3, a4, gp
-lui gp, 0xffffdc00
-blt tp, s10, -610
-auipc s1, 0x31900
-sb gp, 1088(s10)
-bge s2, s8, -2888
-sll t4, t1, t4
-ori sp, a4, 1816
-bgeu t0, s3, -1662
-srli s2, s0, 22
-sb s7, 1538(s4)
-lui s8, 0xfffa9c00
-auipc zero, 0xffffe100
-lui s9, 0xfffed100
-or s11, s10, a0
-lui a2, 0xfff9af00
-lui s2, 0x44c00
-srl a5, gp, a0
-bltu ra, a7, -3036
-bne t4, s3, -3824
-slt a5, t1, ra
-sb s11, 1036(t6)
-addi a4, a6, -1441
-sb s11, 1395(s11)
-sltu tp, t5, a6
-sb tp, 259(a6)
-and s2, a1, t3
-sw t4, 1857(a5)
-slti s10, t2, 900
-beq s10, s2, 466
-lui s8, 0x77a00
-sh gp, 563(s7)
-srli ra, s7, 10
-sb s11, 1016(s10)
-lui s3, 0x2fe00
-or a2, s0, a3
-slli a2, a1, 26
-sw s11, 1276(s8)
-slli a1, s2, 0
-xor t5, s4, ra
-lui a6, 0x7e00
-auipc s4, 0xfffa1300
-slt a1, a2, s9
-auipc a3, 0xfffbec00
-srli a1, zero, 22
-slt a2, a6, a3
-bgeu s0, s9, -3656
-slt s6, a4, t6
-sll s6, ra, a5
-auipc t0, 0xffffa200
-auipc s0, 0xfff84400
-xor t0, zero, s7
-sb s9, 563(tp)
-srli s2, s11, 16
-sh a4, 1145(s6)
-sh ra, 6(t5)
-sra a6, t4, s9
-lui s10, 0xfffa0800
-auipc gp, 0xfffe9300
-or s0, s4, t0
-addi a4, s10, 518
-lui gp, 0xfffcbd00
-blt a0, s6, -4080
-slt a5, ra, gp
-sw s1, 207(s9)
-lui sp, 0xfffedb00
-lui a2, 0xfffbab00
-auipc a5, 0xfffa9400
-bgeu a5, a1, 2268
-auipc zero, 0x300
-slt s8, a2, a6
-lui s7, 0xfffeab00
-sb t6, 186(gp)
-bltu s0, s4, -3058
-xori s7, tp, 995
-lui a2, 0xfffb5300
-slli t5, s2, 3
-slli t2, t5, 3
-lui s9, 0xfffd2400
-or s7, tp, a6
-blt t5, a5, 1440
-lui s6, 0x20d00
-bne t1, s11, -2958
-auipc s8, 0x5be00
-sb a4, 1011(a6)
-sh ra, 957(t2)
-or a1, s4, t1
-xori t5, s3, 1058
-sb t3, 246(s5)
-sltiu a1, t2, -757
-beq ra, a2, -2880
-sh a4, 1981(a2)
-xori sp, a2, -362
-bne s1, s0, 1172
-sh a4, 772(s0)
-sra zero, a6, s2
-sw gp, 696(s3)
-sb s6, 707(t0)
-sb s5, 1919(a3)
+srli tp, s1, 23
+ori t5, ra, -80
+sub s8, a6, ra
+bge gp, s5, 3508
+sb s5, 1933(tp)
+andi ra, s6, 1453
+sw t1, 759(s9)
+add ra, t2, s1
+auipc s6, 0x50f00
+ori t3, sp, -198
+srli s2, t3, 11
+lui s1, 0xe8d00
+sh a7, 203(s7)
+sw s2, 948(a2)
+lui s8, 0x16500
+or s4, sp, a4
+blt gp, s9, -672
+sltiu s7, a7, -749
+sb s1, 1546(sp)
+lui t5, 0xb2000
+beq t5, t3, -4004
+blt s3, a4, 174
+auipc ra, 0x9e800
+slti a7, t3, 289
+bge s0, s2, 4
+and s6, s7, a7
+sh t3, 1918(s5)
+sb t2, 1342(s1)
+sh a1, 185(s3)
+and s6, tp, s4
+and sp, s8, s6
+auipc a2, 0xcc000
+add t6, t6, a3
+bgeu gp, a7, -942
+auipc a7, 0xd8b00
+sh s11, 886(s8)
+auipc t5, 0xea00
+sb gp, 1484(s10)
+blt a2, t1, 3390
+auipc s2, 0xab600
+auipc zero, 0x79a00
+slli a2, gp, 27
+sw a6, 1027(s5)
+xori t2, s8, 1679
+auipc s11, 0xfa000
+sll a6, t1, t4
+sltu s9, s2, ra
+sub zero, s2, s0
+or a4, s4, zero
+lui s1, 0xd0300
+bltu s10, t0, -2620
+xori a3, s5, -1477
+lui t4, 0xd8300
+blt t0, t4, -1590
+xori zero, a4, 668
+andi t6, s5, 1481
+slli t4, s9, 10
+bne ra, tp, -864
+sw ra, 136(a5)
+xori a2, s0, -1788
+sb s3, 562(t4)
+lui s10, 0xc3d00
+lui s6, 0x95f00
+blt s0, s11, -3792
+blt t3, s4, -2018
+bltu a0, t1, -950
+auipc s11, 0x5d800
+lui s6, 0x46d00
+bne a2, s6, 2354
+beq s0, s1, -4082
+beq t6, a0, -3612
+xori a5, a3, -750
+sll ra, a0, zero
+xor t3, a3, t2
+sb s2, 765(s11)
+sw a2, 1159(s2)
+xor a7, s9, s6
+srl t3, s3, sp
+sltu a5, t2, t4
+xori a2, sp, -818
+srli t6, a1, 1
+lui a1, 0x3b000
+sw sp, 1485(s1)
+or t1, a6, s1
+srli s10, a5, 13
+sw s4, 1588(s7)
+sb t0, 1295(t2)
+auipc s7, 0x3cb00
+sra s6, a5, s0
+lui t4, 0xd2200
+slt s8, a4, a5
+sltiu a4, t4, 1530
+slli gp, s10, 30
+bge a1, s9, -3828
+bne s7, s8, -2858
+srl a6, a6, tp
+and s0, a3, s0
+blt ra, gp, 2258
+bne a5, t2, -4094
+srl a4, a5, s8
+addi t6, s4, -533
+sw s8, 1295(s8)
+bne s8, t5, 2472
+ori a0, s5, 1706
+sb t4, 1355(s6)
+sb s1, 825(t2)
+lui t6, 0x9100
+sb sp, 1524(s3)
+auipc ra, 0xeec00
+lui s10, 0xddd00
+bltu a7, sp, -2882
+bgeu s10, a1, 1074
+and ra, t4, s0
+sw tp, 1658(s0)
+xor t1, s4, t0
+andi a1, s11, -994
+and s8, s9, a7
+auipc s4, 0xa4c00
+auipc s11, 0x9d900
+xor t4, s11, s9
+sltu s3, a6, s4
+lui s4, 0xfc900
+sltu a0, s8, t2
+lui a1, 0x10b00
+slt t5, a5, s4
+bge s7, a5, -768
+sb s4, 1535(a1)
+blt a5, s4, 148
+auipc t3, 0x65b00
+addi a5, s7, -429
+srl s2, s5, gp
+auipc s7, 0xe8700
+slti s9, t5, 1516
+sb t0, 262(gp)
+sb a0, 895(t0)
+blt s0, t4, -1830
+lui ra, 0xb1f00
+blt a2, ra, 2380
+bge a6, s1, -908
+bgeu t5, a4, -778
+or s8, s9, t5
+sltu t6, t3, s9
+lui s1, 0xccd00
+sra s2, t0, t5
+sltu s7, t4, a4
+lui t6, 0x39200
+blt s10, s4, 308
+sb t5, 967(zero)
+bne s10, s5, 2180
+ori s10, s10, 559
+blt a5, s6, -3742
+beq s1, s6, -3874
+add t4, s1, t5
+andi t5, s10, -1847
+lui t0, 0x3df00
+auipc ra, 0xd1500
+sb s8, 523(s4)
+ori t4, a6, -204
+sll t2, t0, s8
+sb s9, 1030(t3)
+lui tp, 0x74700
+ori s9, t6, 485
+and s8, t6, t5
+slti ra, s9, 1517
+auipc gp, 0x2c700
+lui a1, 0x67c00
+or t1, s10, gp
+beq s1, s6, -2048
+andi ra, gp, -1318
+xor s1, ra, t3
+add gp, t1, gp
+bltu s7, s0, 1150
+auipc s3, 0xea200
+slli a4, s1, 10
+sll ra, a5, t1
+lui s7, 0x1400
+sh a6, 1073(a1)
+bge ra, gp, -680
+slt s3, s8, s2
+sh t3, 889(t2)
+lui s3, 0x9f000
+beq s1, a2, -1538
+or t2, s5, sp
+slli a1, a0, 18
+sb a7, 501(a0)
+bge gp, t2, -2616
+bne a3, a2, 2296
+xori a4, s10, -1585
+or s0, s9, a5
+srli t3, a5, 29
+lui s5, 0x12c00
+bne s8, s2, -732
+sltiu s0, a4, 706
+auipc gp, 0x15500
+sb s9, 903(s5)
+xor t0, s6, tp
+sb t6, 1785(s6)
+andi a0, s3, -1820
+bgeu s2, s9, -4002
+bgeu a6, s0, 2236
+slt t4, t0, tp
+sw a7, 380(t0)
+lui t4, 0x14700
+and s2, t0, a4
+sh tp, 457(gp)
+sltu s4, a5, s10
+bge tp, t2, 2134
+lui t6, 0x4bd00
+ori a2, t3, 1459
+lui ra, 0xb8500
+lui a3, 0x1f700
+sw t0, 320(a1)
+ori s7, t5, 1383
+sh a1, 826(t2)
+sltu s7, s0, a0
+or s6, s4, tp
+lui s7, 0xb4f00
+xori s11, tp, -968
+lui s4, 0xa6000
+auipc s2, 0xe6000
+blt tp, a3, 378
+sltu gp, t0, s2
+lui sp, 0x40100
+sub s2, s11, tp
+sw t2, 1463(a3)
+slt s1, s1, a7
+slti a4, s6, -2044
+sh s8, 1841(s6)
+lui t4, 0xd0500
+sltu s7, s2, s2
+srli t1, s5, 6
+beq a4, a5, -1722
+and ra, s0, s9
+auipc zero, 0x10900
+andi tp, ra, -1947
+slt gp, t2, s6
+andi s7, t5, -1669
+bge s1, a7, -2852
+beq t0, zero, -2630
+addi s2, s11, -1175
+add t6, s8, s7
+bltu a7, s2, 500
+andi s4, a6, 565
+auipc t3, 0x81d00
+lui s10, 0x78400
+lui tp, 0xe6c00
+sltu a7, s8, tp
+addi t2, tp, 1445
+and s7, t6, a1
+auipc s5, 0x3ca00
+slti t0, a7, 1954
+sb s5, 641(t5)
+lui s6, 0x6bc00
+or s10, s4, s0
+slli a5, t5, 4
+sb s4, 949(s4)
+sll t4, s11, s1
+auipc a1, 0xe7900
+srli a6, s6, 31
+bltu t4, a5, -864
+andi t0, s1, -149
+bltu ra, t2, -4038
+sh a2, 376(s5)
+sltiu s9, s2, 1124
+sh s1, 1331(tp)
+and a6, a2, t0
+blt s11, t3, -972
+sltu tp, sp, t5
+sw a2, 584(t5)
+bne a2, s1, 2170
+blt a0, t2, 2528
+sw a5, 946(a5)
+slt s7, s6, t5
+srl s7, t1, a4
+auipc s4, 0xd6300
+xor t0, s3, s4
+slli a4, a0, 6
+srl s11, s9, s11
+add tp, s0, a6
+addi s9, s7, -56
+sltu a4, t1, tp
+bge t1, s4, 3122
+lui sp, 0x79800
+sh ra, 950(s6)
+sb sp, 448(s2)
+lui s5, 0x4d500
+sb gp, 945(a4)
+sb gp, 114(s3)
+bgeu s6, s3, 2124
+sltiu s6, a3, 72
+sh t1, 1395(s0)
+bltu s10, a1, -834
+add s5, a5, a4
+slt s9, t6, a5
+sb s10, 581(a6)
+sh a2, 2047(t0)
+or sp, gp, gp
+xori s9, t6, 419
+slti s2, s11, 720
+blt s2, ra, -4038
+lui a7, 0x6f00
+ori a2, s8, -58
+lui s4, 0x2f400
+lui a1, 0x92f00
+sltiu s0, s4, 1209
+srli t4, a3, 16
+sh a1, 838(a2)
+slt s1, s10, a3
+sw s3, 1545(zero)
+bge s9, t5, -514
+and a3, zero, s6
+sh a5, 1924(t1)
+sh s1, 1665(zero)
+sra gp, a2, s1
+or a7, s8, t5
+beq ra, s6, -1772
+lui t3, 0xabd00
+auipc t0, 0xab600
+sw a6, 1008(s1)
+beq a1, s5, -640
+bne s11, zero, -2800
+ori s9, s7, 458
+or tp, s4, s6
+lui t1, 0x2c400
+xori a7, a6, 440
+auipc s3, 0x4f600
+srli s7, ra, 31
+sb a4, 782(sp)
+auipc ra, 0xc1b00
+xor a7, sp, t3
+and tp, sp, tp
+addi s0, tp, -1843
+lui s7, 0x7ef00
+bge s4, tp, 1270
+or a7, s10, ra
+slli s6, s11, 30
+sb a5, 1992(t2)
+slli a6, s10, 20
+slt s4, a7, t6
+sb a6, 782(ra)
+auipc s0, 0x5ca00
+sltu s9, t6, a5
+auipc gp, 0x21300
+ori s3, s6, 1439
+auipc t3, 0xa700
+addi s6, zero, 1870
+srli t3, t2, 17
+srli s7, a7, 30
+andi a4, a7, 158
+sh t3, 242(s2)
+lui t6, 0xd2c00
+bne t1, a7, -3874
+auipc t3, 0x3ef00
+slti s3, s2, 1304
+sw t2, 1277(sp)
+auipc s11, 0xc3100
+sltu sp, tp, s2
+auipc ra, 0x28a00
+auipc a3, 0xf9300
+ori s6, s1, -425
+andi s1, a2, -1368
+lui t1, 0xb2900
+lui s9, 0x90000
+xori s5, t3, -1199
+andi a7, t5, -1902
+srli a4, s6, 9
+or t2, s5, zero
+slti a0, t4, 920
+slt t0, tp, gp
+sra s4, tp, s10
+sw s2, 1848(a5)
+sb a6, 1604(sp)
+sb a7, 1870(a1)
+lui s4, 0x3900
+addi t0, ra, -1250
+bltu gp, s11, 3360
+srl t2, t0, t2
+sh s7, 1798(s0)
+auipc t4, 0x7fb00
+beq s8, t2, -3044
+sra sp, s11, s6
+sra t5, sp, t4
+slt s6, s11, s6
+sb a2, 1341(ra)
+sh t1, 1409(a3)
+bge a1, t6, 3218
+slti a7, s7, 575
+or s0, s8, s3
+sh a1, 1226(t4)
+auipc s4, 0xb4500
+sltiu s0, tp, -1682
+and gp, a4, ra
+blt t2, a7, -1948
+bgeu tp, sp, 3252
+sltu s0, a3, s7
+sb s5, 1463(s2)
+auipc s10, 0xb4e00
+lui a3, 0x1d000
+slli t0, a3, 13
+bgeu a6, a4, -2822
+lui a3, 0xc3100
+auipc s0, 0x92400
+and a6, s6, t0
+slt a6, s1, a7
+xor a7, s0, a7
+blt s0, a6, 268
+blt s7, t2, -4088
+auipc s7, 0x9500
+or s1, t3, a3
+sh a0, 307(s6)
+sb a4, 960(s4)
+auipc s2, 0x68300
+xori t5, a6, -399
+xor a7, t5, a3
+auipc s3, 0xd4e00
+sh s1, 827(s8)
+bgeu s6, s1, -1768
+xori t3, gp, 20
+blt t6, s7, -3818
+and a5, s6, t1
+bltu a3, sp, -896
+srl t1, gp, s2
+sra t3, t3, t3
+auipc t3, 0xfa000
+auipc s4, 0xfa200
+sub s10, t6, a7
+bgeu t1, s5, -3888
+add s3, s7, a4
+bgeu tp, t3, 506
+ori s3, a3, 1760
+slli s6, t0, 5
+auipc t4, 0xcbf00
+beq t6, s7, 140
+sh s7, 947(ra)
+sltiu s6, a0, -147
+auipc t5, 0xc0c00
+bge gp, a4, 3094
+bge a1, s5, 3470
+blt s3, s11, -3926
+xori a7, t1, 1813
+srl s3, a4, a0
+lui s0, 0x14400
+sh a4, 1035(t5)
+andi a6, s3, -1672
+sll s6, s6, a1
+sw s4, 527(tp)
+sb tp, 1854(ra)
+sb zero, 1100(ra)
+sw s4, 326(s0)
+auipc s1, 0xad200
+beq s4, s7, 3382
+sb t1, 1464(s6)
+ori a0, t5, -2013
+sb a5, 838(a7)
+sh t1, 574(s2)
+sb t0, 1211(a1)
+sh sp, 1667(s4)
+sltiu s11, a0, 1050
+sltiu t6, ra, 601
+beq s10, tp, -3732
+lui s8, 0x2fb00
+auipc t1, 0xc2d00
+slli t2, t5, 26
+sh s11, 177(t0)
+sw s11, 1204(a2)
+lui s4, 0xe2b00
+or sp, t0, s7
+slt t0, t4, a1
+auipc s1, 0xb2100
+sltiu t4, a3, 535
+sw t0, 763(t4)
+sh s1, 891(s10)
+xori t3, s7, -968
+auipc s8, 0x65200
+xor s2, s10, a5
+auipc s2, 0xd4800
+bltu t0, s5, 414
+auipc t5, 0x9bc00
+bltu t2, zero, -548
+and a6, s6, t1
+sh s5, 1739(t1)
+bne a2, tp, -1010
+sw a0, 373(t3)
+slti a4, s11, 913
+slli s10, a3, 22
+addi a0, s2, 1331
+sltiu a2, s8, 1840
+auipc t3, 0xb2600
+addi a2, a6, -923
+auipc sp, 0xbb700
+srli s8, sp, 4
+auipc a6, 0x81a00
+srli t1, a4, 16
+bgeu a3, t5, -3790
+srl s0, a2, ra
+bge zero, s11, 22
+slt s7, t5, a0
+sb t2, 76(sp)
+or ra, s6, tp
+addi s2, ra, -1622
+sltiu s10, s5, 1582
+sltu s8, t3, t4
+slt a1, gp, s3
+sb zero, 1460(s1)
+auipc t6, 0x74900
+lui t2, 0xc8200
+sb a2, 1077(t3)
+slt a0, t5, a0
+ori a5, t1, 739
+slli a4, tp, 9
+bge s8, t0, 2420
+sb t1, 1740(a4)
+sltu a7, a1, a2
+sb s10, 1724(a2)
+auipc s2, 0x7d600
+slli gp, ra, 13
+bge a1, s2, 1406
+sw tp, 1330(a4)
+or s9, s1, s0
+ori t0, a5, 1379
+lui t6, 0x9e300
+sb s1, 242(gp)
+lui s2, 0x7b400
+bgeu s5, a6, -3814
+auipc a6, 0x5b500
+auipc a3, 0xa4600
+slli s0, t6, 26
+addi t4, s6, 1362
+bne s11, t0, 2374
+sll ra, a4, a7
+lui t3, 0x62a00
+bne sp, t3, -590
+or a6, gp, gp
+slti s7, tp, 682
+sh s0, 1988(a5)
+sh a0, 959(a5)
+sh t1, 882(a2)
+bge tp, a2, 3278
+sw ra, 1416(s10)
+auipc a0, 0x7c300
+or s0, s3, s7
+or t1, s4, a0
+bge s2, zero, 90
+sll s11, t1, s5
+sb t0, 1659(a3)
+sw a2, 441(t5)
+auipc s1, 0x9600
+lui t0, 0xf1600
+auipc a2, 0x6c300
+lui s7, 0xb2000
+beq a6, s9, -2658
+sw s0, 260(t1)
+lui s1, 0x82200
+blt s6, zero, -1004
+sh a0, 1842(tp)
+andi s11, t5, -847
+and s2, s6, s9
+sb s5, 1274(a5)
+auipc tp, 0x24500
+and s8, t6, t6
+lui s0, 0x7b100
+bgeu a7, s4, -880
+bne zero, s9, -770
+bgeu s9, a4, -4070
+bne a7, zero, -2806
+xor s6, t4, a0
+xori gp, a2, -431
+andi t0, t2, -1938
+auipc s8, 0x8dd00
+sb t3, 1084(s6)
+sh a3, 624(a5)
+sltiu s0, sp, 595
+sw s4, 2043(s4)
+sll a1, s3, a3
+bge s6, s6, -908
+andi s6, t1, -453
+sw s10, 1343(t6)
+andi s0, t6, -1177
+sltu s4, t6, t0
+sb t6, 1164(t1)
+sll s4, s2, a6
+lui a3, 0x3ca00
+sh s10, 1082(a5)
+beq a1, ra, 3446
+lui t0, 0xdec00
+andi s3, s8, -296
+slli t6, s11, 5
+sub a0, s2, a6
+beq t2, t0, 1432
+sll t1, s8, a6
+lui t5, 0xc1600
+blt s0, a5, 2318
+sltiu a3, t1, 400
+lui s3, 0x15600
+bgeu t5, s5, -700
+sb s9, 1140(s1)
+sra t2, t1, t5
+slli t4, t3, 28
+sltu sp, s0, a3
+bge s9, s7, 1502
+bltu t3, t1, -1644
+ori a5, zero, 966
+xori s1, s3, 813
+sb a3, 1588(t0)
+slti s5, a1, -1194
+bgeu s9, a3, -2562
+slli s0, t3, 13
+sh a3, 112(s0)
+lui a1, 0xdc300
+sh s3, 328(zero)
+beq gp, t1, -2796
+andi s10, s11, -559
+lui tp, 0xb5b00
+sltiu zero, s8, 218
+sh a0, 898(s5)
+auipc t5, 0x92e00
+bgeu s1, a5, -834
+lui a4, 0x11100
+slt t2, t4, s3
+lui a1, 0x40d00
+xor tp, s6, tp
+auipc s10, 0x5fb00
+auipc s9, 0x17d00
+xor s10, s6, s8
+lui t5, 0x39b00
+auipc a2, 0x2bf00
+sw s8, 1272(t4)
+addi s11, t5, 1890
+bge a5, s10, 3430
+bne sp, s6, -2658
+lui zero, 0xac900
+sb s4, 1846(s3)
+auipc a3, 0xda400
+sw a7, 1657(s7)
+auipc a7, 0x27800
+sltu t1, a4, zero
+sll s7, s9, t2
+blt s1, t5, -3696
+lui s9, 0x50a00
+andi s3, a5, -1355
+auipc s5, 0xd1600
+xor s0, s4, s11
+bne s8, a7, 94
+sb a4, 1800(t1)
+sll t6, a7, t0
+and t3, a5, s8
+lui s11, 0x4fb00
+slti sp, sp, -1818
+sb s3, 2047(s5)
+sll a3, zero, t1
+lui a6, 0xc1900
+slt s10, t3, ra
+blt t6, gp, -2944
+srli s9, t0, 7
+sltiu t4, t4, 678
+blt gp, a1, -984
+bne a5, s8, -630
+sw t3, 781(a2)
+slt s7, gp, sp
+bgeu a3, t1, -610
+sll s5, s8, t4
+auipc t6, 0x7e500
+sra t3, s1, t2
+bgeu a7, s2, 2272
+sw t4, 1663(s2)
+sll a7, a0, s11
+bltu a3, t0, 2250
+xori t3, t1, 517
+sh a4, 1997(s10)
+sltu a6, s10, s2
+bgeu s1, t4, 22
+auipc tp, 0x57f00
+blt s7, zero, -1882
+sltu s2, s8, a2
+addi s4, a0, 75
+bne t3, a6, 2092
+auipc s8, 0xfff00
+lui t6, 0xbc00
+beq s2, s2, -3700
+sh s1, 819(a5)
+ori t5, s3, 1580
+bne s9, s11, 3206
+sh a6, 1585(a1)
+sub a7, t6, s1
+sw a0, 832(s6)
+slli a4, s4, 20
+sw t2, 779(s6)
+sub s4, t2, a1
+lui s2, 0xfa200
+lui t1, 0x54600
+auipc t0, 0x53900
+bgeu t6, t2, -2594
+sw s11, 892(gp)
+bltu a2, gp, 2212
+sh t6, 1730(s7)
+srl a3, s11, s6
+lui a3, 0xdb300
+andi s11, t4, -813
+lui s2, 0x76e00
+sb s5, 324(tp)
+sw s10, 1294(gp)
+auipc a0, 0x53100
+sw t6, 637(a0)
+sb s2, 639(a3)
+sw a4, 68(s0)
+sh s1, 368(a7)
+or s7, s9, s3
+sh a2, 517(sp)
+sltu t0, zero, tp
+and t4, a1, s0
+slli s1, sp, 27
+sw a7, 1484(s11)
+xor s6, s8, ra
+slli ra, s11, 21
+ori s10, s9, -208
+bne s10, s9, -2994
+srli a4, s1, 9
+lui s3, 0xe1b00
+xor s8, ra, tp
+auipc a6, 0x5c00
+sh t6, 1356(s0)
+sw t0, 331(s1)
+sll gp, s10, a5
+or a6, t2, s2
+sb s7, 1650(a2)
+lui t1, 0x9ec00
+auipc s2, 0xf900
+slli sp, s9, 27
+sw s7, 1352(a3)
+auipc s1, 0x24000
+sw s0, 1392(a1)
+addi s11, s8, 960
+auipc s2, 0x70000
+lui sp, 0xcae00
+sh a7, 774(s1)
+auipc s11, 0xeab00
+xor t5, a5, t2
+sh s3, 1269(s8)
+sb a5, 269(s8)
+beq t5, s6, 1200
+ori a3, a5, -488
+xori a4, t4, 2046
+auipc gp, 0x39900
+beq sp, t1, -2842
+lui gp, 0xebd00
+blt s11, t5, 3238
+auipc s7, 0xcea00
+or a4, zero, t2
+bltu t6, a6, 1142
+lui ra, 0xde100
+slli a5, s6, 16
+lui s10, 0x19800
+add s5, tp, s9
+xori a1, a6, 387
+sll a5, t4, a2
+bne t1, a1, 1050
+sb s10, 782(a6)
+andi t5, s8, 1000
+srli s8, a4, 26
+xor s3, ra, zero
+auipc s7, 0x1400
+bge s10, t1, -1666
+sw s2, 190(t0)
+slli a5, t5, 30
+andi s7, a2, -909
+srli a5, t6, 16
+slli s0, a7, 11
+sb a0, 1867(gp)
+sh sp, 1593(a4)
+beq a5, t1, 3296
+lui sp, 0x3b200
+sh ra, 1392(s11)
+sll t4, ra, t1
+or s1, s11, t2
+auipc s9, 0x27800
+slli a7, a3, 22
+bge s6, zero, -2582
+sltiu a3, ra, -1700
+sb a5, 1530(s0)
+sh a1, 697(s7)
+addi a5, a7, 1095
+xori s11, zero, 824
+bne a6, a3, -922
+lui tp, 0x6fb00
+sw a1, 1847(t5)
+auipc s11, 0x31e00
+lui t0, 0xde900
+lui zero, 0xbb400
+sh ra, 1078(sp)
+srl t3, s10, s6
+slt a1, s6, s6
+slti a6, s11, 1561
+slt a0, a3, s3
+sh s9, 514(s8)
+slli s6, a0, 29
+sb t2, 385(tp)
+sh t3, 1739(s11)
+and a3, t1, s9
+sb s6, 1458(t2)
+srli s9, tp, 30
+lui sp, 0xed700
+or t3, t0, s9
+add t5, s11, s11
+or a1, s10, s1
+beq s0, s4, -3810
+bltu s6, zero, -3712
+bltu a5, a3, 1262
+addi s5, t4, -1799
+sw s10, 1584(t5)
+lui t3, 0xe8a00
+auipc s5, 0xefd00
+auipc s0, 0x12700
+lui ra, 0x5ca00
+auipc s4, 0x7c500
+auipc s0, 0x90800
+slli s11, s1, 26
+sb a6, 127(s5)
+addi sp, a5, 1404
+bgeu a6, a6, -2936
+sb s9, 1548(a4)
+lui s7, 0xfe400
+bne gp, a3, 3406
+lui a5, 0xf6f00
+lui a3, 0xf3900
+bge t4, s9, -2844
+sw s11, 457(a3)
+auipc s5, 0x3c200
+auipc s7, 0x43c00
+xor s5, gp, s4
+sh s5, 1869(t5)
+lui s2, 0xc7000
+slli s7, a6, 31
+bge a3, a1, -2922
+sb t0, 265(a2)
+sw s3, 15(tp)
+andi a4, t4, 1080
+and t2, t3, a6
+auipc a3, 0x25700
+lui a4, 0x91000
+sltu s4, a3, s8
+lui s10, 0x58c00
+beq t0, a3, 3520
+blt a6, s3, -1572
+and a5, s1, t4
+lui t6, 0x19f00
+beq tp, tp, -2644
+or s2, t2, t4
+sh s2, 497(s6)
+sh gp, 399(a6)
+sh a7, 1843(t5)
+lui s11, 0x28300
+addi ra, ra, -1774
+auipc s2, 0x93700
+slli s2, s7, 28
+xori s6, a3, -528
+blt gp, s9, -1696
+sltiu s9, s5, 610
+slli t6, t4, 23
+sw s0, 393(s6)
+sb s2, 635(s0)
+sltu ra, s4, t3
+beq s4, s0, -722
+sw a6, 1031(t5)
+auipc s3, 0xefa00
+sb a3, 1141(sp)
+lui sp, 0xf6900
+blt s4, a2, -3586
+lui s9, 0xdf100
+blt s4, a3, 2436
+lui a7, 0xe6800
+srli a6, t5, 28
+sw t3, 583(s6)
+sw s2, 453(t4)
+beq a0, s8, 1034
+bne a3, s4, 1278
+bne s8, s1, 390
+sw s7, 442(zero)
+sw s11, 192(t2)
+auipc a4, 0x3cb00
+sltiu s1, tp, -1932
+auipc s0, 0xa0200
+lui s2, 0x28f00
+or t6, a5, a7
+slt a2, a5, t6
+sb a4, 1868(s8)
+addi t2, sp, 1695
+bne t5, s5, -3012
+auipc s3, 0x85a00
+sub t4, s9, a7
+beq ra, s8, 3174
+lui s9, 0xe0200
+beq a4, ra, 3494
+sb t3, 1202(s0)
+auipc a2, 0xcd400
+auipc t4, 0x37a00
+blt s2, a3, 2538
+bge t1, s2, -3814
+slt a7, gp, zero
+slti s11, a6, 889
+sw a1, 117(t5)
+sb s6, 586(a2)
+auipc zero, 0xc3a00
+sh s4, 1392(s4)
+andi s9, a6, -300
+sb s5, 957(s1)
+slli s8, s5, 4
+auipc t0, 0x67c00
+sra s6, sp, s3
+sw s6, 1854(a4)
+or s7, t3, t2
+bltu t2, s4, -592
+bge t6, a0, -794
+sb a2, 1338(s2)
+lui sp, 0xfa500
+bge s0, t3, -4048
+slt s11, t3, s10
+and s1, s3, s7
+srli a4, s6, 17
+addi s0, a4, -475
+bge ra, a6, 2330
+auipc a3, 0xf8100
+bgeu zero, s10, 3102
+sw s5, 1227(s11)
+bltu zero, s9, -1902
+or t2, s1, a0
+sb s9, 49(s5)
+sll a2, tp, t2
+sw a3, 711(tp)
+blt t1, a5, -4004
+lui s0, 0x40100
+xori a1, s7, 247
+sb s10, 2(t5)
+sub a4, s7, s8
+bgeu a0, sp, 1506
+srli s1, s4, 19
+xori s2, t1, -1079
+sw t4, 1456(sp)
+sltiu s8, s0, -1147
+beq t3, s1, -3980
+bgeu a7, a1, -834
+sw gp, 1357(zero)
+xori t0, t1, 1529
+and ra, s4, t0
+or t5, gp, s6
+srli a7, s0, 31
+bge s0, zero, -652
+add s2, s10, a3
+sw a2, 1602(t2)
+blt t0, t4, 3528
+slti s7, a7, -600
+auipc a0, 0xe200
+sh a2, 1016(s7)
+ori a2, s8, -751
+sh s7, 1781(t4)
+sh a2, 1802(zero)
+auipc s6, 0x6ad00
+auipc s10, 0xb1c00
+lui s0, 0x57000
+auipc a3, 0x56d00
+auipc a5, 0x40e00
+lui a3, 0x12300
+sb a0, 49(a5)
+sltiu gp, t4, -1904
+bne s6, s8, 1366
+blt s3, a7, -624
+bgeu a6, s4, 496
+auipc tp, 0x2a300
+bgeu a0, a3, 1136
+slti s9, s0, -1442
+auipc sp, 0x67500
+auipc ra, 0x22100
+addi ra, a3, 554
+blt a4, zero, 3186
+beq t0, a5, -3860
+srli a2, s7, 28
+blt a0, s0, -2936
+bge s11, s11, -2700
+slt s1, a0, s6
+srli s10, a1, 10
+srli t3, s10, 13
+bne t2, s11, 3242
+andi gp, a7, -386
+sltiu sp, tp, 1531
+bgeu s5, t6, -3866
+beq zero, s4, -4022
+sh t4, 518(s1)
+andi a2, a2, 302
+slt tp, s1, sp
+xori s0, t6, -1699
+sw s5, 1521(s3)
+sb s2, 1601(a2)
+xori s1, s5, 226
+sw a5, 1340(a1)
+sb t2, 451(s9)
+beq t5, t6, 2474
+auipc s6, 0x74f00
+bne t0, a5, -948
+sb a4, 589(tp)
+xori s2, a1, -1831
+bge t0, s9, -920
