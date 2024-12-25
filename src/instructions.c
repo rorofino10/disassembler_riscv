@@ -155,7 +155,7 @@ void print_instruction(InstructionData *instruction_data)
         printf("%s %s, 0x%x\n", instruction_data->string, get_register_name(instruction_data->data.u_instruction_data.rd), instruction_data->data.u_instruction_data.imm);
         break;
     case J:
-        printf("%s %s, %d", instruction_data->string, get_register_name(instruction_data->data.j_instruction_data.rd), instruction_data->data.j_instruction_data.imm);
+        printf("%s %s, %d\n", instruction_data->string, get_register_name(instruction_data->data.j_instruction_data.rd), instruction_data->data.j_instruction_data.imm);
         break;
     default:
         break;

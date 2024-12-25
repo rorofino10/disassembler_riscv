@@ -2,8 +2,8 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "Run Dissamsembler",
-            "command": "dist/disassembler < input.o > compiled.riscv",
+            "label": "Run Test InputDissamsembler",
+            "command": "make test",
             "args": [],
             "options": {
                 "cwd": ""
@@ -52,23 +52,45 @@
                 "clear": true
             }
         },
+        // {
+        //     "type": "cppbuild",
+        //     "label": "C/C++: gcc build project",
+        //     "command": "/usr/bin/gcc",
+        //     "args": [
+        //         "-fdiagnostics-color=always",
+        //         "-g",
+        //         "src/**.c",
+        //         "-o",
+        //         "dist/disassembler"
+        //     ],
+        //     "options": {
+        //         "cwd": ""
+        //     },
+        //     "problemMatcher": [
+        //         "$gcc"
+        //     ],
+        //     "group": {
+        //         "kind": "build",
+        //         "isDefault": true
+        //     },
+        //     "presentation": {
+        //         "echo": true,
+        //         "reveal": "silent",
+        //         "focus": false,
+        //         "panel": "shared",
+        //         "showReuseMessage": true,
+        //         "clear": true
+        //     },
+        //     "detail": "compiler: /usr/bin/gcc"
+        // }
         {
             "type": "cppbuild",
             "label": "C/C++: gcc build project",
-            "command": "/usr/bin/gcc",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "src/**.c",
-                "-o",
-                "dist/disassembler"
-            ],
+            "command": "make",
+            "args": [],
             "options": {
                 "cwd": ""
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -81,7 +103,7 @@
                 "showReuseMessage": true,
                 "clear": true
             },
-            "detail": "compiler: /usr/bin/gcc"
+            "detail": "make: Makefile"
         }
     ],
     "version": "2.0.0"
