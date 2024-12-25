@@ -3,7 +3,7 @@ DEBUG=-pg
 CODEDIRS=src
 INCDIRS=.
 OPT=-O0
-CFLAGS = -fdiagnostics-color=always ${INCDIRS} ${OPT}
+CFLAGS = -fdiagnostics-color=always -g ${OPT}
 
 CFILES=$(foreach D,$(CODEDIRS),$(wildcard $(D)/*.c))
 OBJECTS=$(patsubst %.c,%.o,$(CFILES))
