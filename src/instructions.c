@@ -135,6 +135,12 @@ void extract_instruction_data(__uint32_t instruction, InstructionData *instructi
 void print_instruction(InstructionData *instruction_data)
 {
 
+    if (!instruction_data->valid)
+    {
+        printf("invalid\n");
+        return;
+    }
+
     switch (instruction_data->type)
     {
     case R:

@@ -1,10 +1,12 @@
 {
     "files.associations": {
+        "Makefile": "makefile",
         "instructions.h": "c",
         "stdlib.h": "c",
         "string.h": "c",
         "instruction_trie.h": "c",
         "instruction_lookup.h": "c",
-        "random": "c"
+        "random": "c",
+        "argp.h": "c"
     }
 }
