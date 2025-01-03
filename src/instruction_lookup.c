@@ -51,33 +51,62 @@ const CompactEntry rv32i_base_instruction_set[] = {
 
 };
 
+const __uint32_t get_key_from_type(InstructionType type, __uint32_t akey, __uint32_t bkey, __uint32_t ckey)
+{
+    switch (type)
+    {
+    case R:
+    case IShift:
+        return akey;
+    case I:
+    case S:
+    case B:
+        return bkey;
+    default:
+        return ckey;
+    }
+}
+
+// const InstructionEntry instruction_lookup(__uint8_t opcode, __uint8_t f3, __uint8_t f7)
+// {
+//     __uint32_t akey = KEY(opcode, f3, f7);
+//     __uint32_t bkey = KEY(opcode, f3, 0);
+//     __uint32_t ckey = KEY(opcode, 0, 0);
+//     __uint32_t key_to_use;
+//     for (size_t i = 0; i < sizeof(rv32i_base_instruction_set) / sizeof(rv32i_base_instruction_set[0]); i++)
+//     {
+//         InstructionType type = rv32i_base_instruction_set[i].entry.instruction_type;
+//         key_to_use = get_key_from_type(type, akey, bkey, ckey);
+//         if (rv32i_base_instruction_set[i].key == key_to_use)
+//             return rv32i_base_instruction_set[i].entry;
+//     }
+//     return (InstructionEntry){0};
+//     ;
+// }
 const InstructionEntry instruction_lookup(__uint8_t opcode, __uint8_t f3, __uint8_t f7)
 {
     __uint32_t akey = KEY(opcode, f3, f7);
     __uint32_t bkey = KEY(opcode, f3, 0);
     __uint32_t ckey = KEY(opcode, 0, 0);
     __uint32_t key_to_use;
-    for (size_t i = 0; i < sizeof(rv32i_base_instruction_set) / sizeof(rv32i_base_instruction_set[0]); i++)
+
+    int set_len = sizeof(rv32i_base_instruction_set) / sizeof(rv32i_base_instruction_set[0]);
+    int left = 0;
+    int right = set_len - 1;
+    while (left <= right)
     {
-        InstructionType type = rv32i_base_instruction_set[i].entry.instruction_type;
-        switch (type)
-        {
-        case R:
-        case IShift:
-            key_to_use = akey;
-            break;
-        case I:
-        case S:
-        case B:
-            key_to_use = bkey;
-            break;
-        default:
-            key_to_use = ckey;
-            break;
-        }
-        if (rv32i_base_instruction_set[i].key == key_to_use)
-            return rv32i_base_instruction_set[i].entry;
+        int mid = left + (right - left) / 2;
+
+        InstructionType type = rv32i_base_instruction_set[mid].entry.instruction_type;
+        key_to_use = get_key_from_type(type, akey, bkey, ckey);
+        if (rv32i_base_instruction_set[mid].key == key_to_use)
+            return rv32i_base_instruction_set[mid].entry;
+        if (rv32i_base_instruction_set[mid].key < key_to_use)
+            left = mid + 1;
+        else
+            right = mid - 1;
     }
+
     return (InstructionEntry){0};
     ;
 }

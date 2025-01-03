@@ -1,9 +1,9 @@
 CC = gcc
-DEBUG=-pg
+DEBUG=-pg -g
 CODEDIRS=src
 INCDIRS=.
 OPT=-O0
-CFLAGS = -fdiagnostics-color=always -g ${OPT}
+CFLAGS = -fdiagnostics-color=always ${DEBUG} ${OPT}
 
 CFILES=$(foreach D,$(CODEDIRS),$(wildcard $(D)/*.c))
 OBJECTS=$(patsubst %.c,%.o,$(CFILES))
@@ -13,7 +13,7 @@ BINARY=dist/disassembler
 all: ${BINARY}
 
 ${BINARY}: ${OBJECTS}
-	${CC} -o $@ $^
+	${CC} -pg -o $@ $^
 
 %.o: %.c
 	${CC} ${CFLAGS} -c -o $@ $<

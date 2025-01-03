@@ -8,14 +8,15 @@
  */
 int sext(__uint32_t in, int n)
 {
+    if (in >> (n - 1) != 1)
+        return in;
+
     __uint32_t mask = 0;
     for (size_t i = n; i < 32; i++)
     {
         mask |= 1 << i;
     }
-    if (in >> (n - 1) == 1)
-        return in | mask;
-    return in;
+    return in | mask;
 }
 void extract_instruction(__uint32_t instruction, InstructionData *instruction_data)
 {

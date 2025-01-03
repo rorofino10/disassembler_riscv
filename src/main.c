@@ -6,6 +6,7 @@ int main(int argc, char **argv)
 {
     __uint32_t buffer;
     int status;
+    const char *prog = argv[0];
     while ((status = scanf("%x", &buffer)) == 1)
     {
 
@@ -13,11 +14,7 @@ int main(int argc, char **argv)
         extract_instruction_data(buffer, &instruction_data);
         if (!instruction_data.valid)
         {
-            SET_RED_COUT();
-            printf("ERROR"); // Display ERROR in red
-            SET_DEFAULT_COUT();
-            printf("Invalid instruction found.\n");
-            // exit(EXIT_FAILURE);
+            printf("unknown.\n");
         }
         else
         {
@@ -26,10 +23,7 @@ int main(int argc, char **argv)
     }
     if (status == 0)
     {
-        SET_RED_COUT();
-        printf("ERROR"); // Display ERROR in red
-        SET_DEFAULT_COUT();
-        printf("Invalid formatting\n");
+        fprintf(stderr, "%s: invalid formatting found.\n", prog);
         exit(EXIT_FAILURE);
     }
     return 0;
