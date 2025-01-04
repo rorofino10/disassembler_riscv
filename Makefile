@@ -30,11 +30,11 @@ STRESS_SCRIPT = ${SCRIPTS}/million_inputs.py
 
 
 test: ${BINARY}
-	${BINARY} < ${NORMAL_IN} > ${NORMAL_OUT}
+	${BINARY} ${NORMAL_IN} ${NORMAL_OUT}
 
 stress: ${BINARY}
 	${PY} ${STRESS_SCRIPT} > ${STRESS_IN}
-	${BINARY} < ${STRESS_IN} > ${STRESS_OUT}
+	${BINARY} ${STRESS_IN} ${STRESS_OUT}
 
 clean:
 	rm -rf ${BINARY} ${OBJECTS}

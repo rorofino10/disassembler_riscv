@@ -3,20 +3,20 @@ Flat profile:
 Each sample counts as 0.01 seconds.
   %   cumulative   self              self     total           
  time   seconds   seconds    calls  ns/call  ns/call  name    
- 57.85      1.88     1.88 10000000   188.00   188.00  instruction_lookup
- 18.77      2.49     0.61  7916227    77.06    77.06  sext
-  6.46      2.70     0.21 10000000    21.00    27.00  print_instruction
-  5.38      2.88     0.17 10000000    17.50   205.50  extract_instruction
-  4.31      3.02     0.14 10000000    14.00   297.00  extract_instruction_data
-  1.85      3.08     0.06 18335534     3.27     3.27  get_register_name
-  1.85      3.13     0.06  1667755    35.98   113.03  extract_b_instruction_data
-  1.69      3.19     0.06  1666901    33.00    33.00  extract_r_instruction_data
-  1.23      3.23     0.04  1666657    24.00   101.06  extract_s_instruction_data
-  0.31      3.24     0.01   416872    23.99    23.99  extract_ishift_instruction_data
-  0.31      3.25     0.01                             main
-  0.00      3.25     0.00  1666273     0.00    77.06  extract_u_instruction_data
-  0.00      3.25     0.00  1665094     0.00    77.06  extract_j_instruction_data
-  0.00      3.25     0.00  1250448     0.00    77.06  extract_i_instruction_data
+ 80.00      0.04     0.04  1000000    40.00    40.00  instruction_lookup
+ 20.00      0.05     0.01  1000000    10.00    50.00  extract_instruction
+  0.00      0.05     0.00  4821404     0.00     0.00  get_key_from_type
+  0.00      0.05     0.00  1833215     0.00     0.00  get_register_name
+  0.00      0.05     0.00  1000000     0.00    50.00  extract_instruction_data
+  0.00      0.05     0.00  1000000     0.00     0.00  print_instruction
+  0.00      0.05     0.00   791769     0.00     0.00  sext
+  0.00      0.05     0.00   166815     0.00     0.00  extract_u_instruction_data
+  0.00      0.05     0.00   166725     0.00     0.00  extract_s_instruction_data
+  0.00      0.05     0.00   166615     0.00     0.00  extract_r_instruction_data
+  0.00      0.05     0.00   166585     0.00     0.00  extract_j_instruction_data
+  0.00      0.05     0.00   166292     0.00     0.00  extract_b_instruction_data
+  0.00      0.05     0.00   125352     0.00     0.00  extract_i_instruction_data
+  0.00      0.05     0.00    41616     0.00     0.00  extract_ishift_instruction_data
 
  %         the percentage of the total running time of the
 time       program used by this function.
@@ -54,71 +54,75 @@ notice and this notice are preserved.
 		     Call graph (explanation follows)
 
 
-granularity: each sample hit covers 4 byte(s) for 0.31% of 3.25 seconds
+granularity: each sample hit covers 4 byte(s) for 20.00% of 0.05 seconds
 
 index % time    self  children    called     name
+                0.01    0.04 1000000/1000000     extract_instruction_data [2]
+[1]    100.0    0.01    0.04 1000000         extract_instruction [1]
+                0.04    0.00 1000000/1000000     instruction_lookup [4]
+-----------------------------------------------
+                0.00    0.05 1000000/1000000     main [3]
+[2]    100.0    0.00    0.05 1000000         extract_instruction_data [2]
+                0.01    0.04 1000000/1000000     extract_instruction [1]
+                0.00    0.00  166815/166815      extract_u_instruction_data [9]
+                0.00    0.00  166725/166725      extract_s_instruction_data [10]
+                0.00    0.00  166615/166615      extract_r_instruction_data [11]
+                0.00    0.00  166585/166585      extract_j_instruction_data [12]
+                0.00    0.00  166292/166292      extract_b_instruction_data [13]
+                0.00    0.00  125352/125352      extract_i_instruction_data [14]
+                0.00    0.00   41616/41616       extract_ishift_instruction_data [15]
+-----------------------------------------------
                                                  <spontaneous>
-[1]    100.0    0.01    3.24                 main [1]
-                0.14    2.83 10000000/10000000     extract_instruction_data [2]
-                0.21    0.06 10000000/10000000     print_instruction [6]
+[3]    100.0    0.00    0.05                 main [3]
+                0.00    0.05 1000000/1000000     extract_instruction_data [2]
+                0.00    0.00 1000000/1000000     print_instruction [7]
 -----------------------------------------------
-                0.14    2.83 10000000/10000000     main [1]
-[2]     91.4    0.14    2.83 10000000         extract_instruction_data [2]
-                0.17    1.88 10000000/10000000     extract_instruction [3]
-                0.06    0.13 1667755/1667755     extract_b_instruction_data [7]
-                0.04    0.13 1666657/1666657     extract_s_instruction_data [8]
-                0.00    0.13 1666273/1666273     extract_u_instruction_data [9]
-                0.00    0.13 1665094/1665094     extract_j_instruction_data [10]
-                0.00    0.10 1250448/1250448     extract_i_instruction_data [11]
-                0.06    0.00 1666901/1666901     extract_r_instruction_data [13]
-                0.01    0.00  416872/416872      extract_ishift_instruction_data [14]
+                0.04    0.00 1000000/1000000     extract_instruction [1]
+[4]     80.0    0.04    0.00 1000000         instruction_lookup [4]
+                0.00    0.00 4821404/4821404     get_key_from_type [5]
 -----------------------------------------------
-                0.17    1.88 10000000/10000000     extract_instruction_data [2]
-[3]     63.2    0.17    1.88 10000000         extract_instruction [3]
-                1.88    0.00 10000000/10000000     instruction_lookup [4]
+                0.00    0.00 4821404/4821404     instruction_lookup [4]
+[5]      0.0    0.00    0.00 4821404         get_key_from_type [5]
 -----------------------------------------------
-                1.88    0.00 10000000/10000000     extract_instruction [3]
-[4]     57.8    1.88    0.00 10000000         instruction_lookup [4]
+                0.00    0.00 1833215/1833215     print_instruction [7]
+[6]      0.0    0.00    0.00 1833215         get_register_name [6]
 -----------------------------------------------
-                0.10    0.00 1250448/7916227     extract_i_instruction_data [11]
-                0.13    0.00 1665094/7916227     extract_j_instruction_data [10]
-                0.13    0.00 1666273/7916227     extract_u_instruction_data [9]
-                0.13    0.00 1666657/7916227     extract_s_instruction_data [8]
-                0.13    0.00 1667755/7916227     extract_b_instruction_data [7]
-[5]     18.8    0.61    0.00 7916227         sext [5]
+                0.00    0.00 1000000/1000000     main [3]
+[7]      0.0    0.00    0.00 1000000         print_instruction [7]
+                0.00    0.00 1833215/1833215     get_register_name [6]
 -----------------------------------------------
-                0.21    0.06 10000000/10000000     main [1]
-[6]      8.3    0.21    0.06 10000000         print_instruction [6]
-                0.06    0.00 18335534/18335534     get_register_name [12]
+                0.00    0.00  125352/791769      extract_i_instruction_data [14]
+                0.00    0.00  166292/791769      extract_b_instruction_data [13]
+                0.00    0.00  166585/791769      extract_j_instruction_data [12]
+                0.00    0.00  166725/791769      extract_s_instruction_data [10]
+                0.00    0.00  166815/791769      extract_u_instruction_data [9]
+[8]      0.0    0.00    0.00  791769         sext [8]
 -----------------------------------------------
-                0.06    0.13 1667755/1667755     extract_instruction_data [2]
-[7]      5.8    0.06    0.13 1667755         extract_b_instruction_data [7]
-                0.13    0.00 1667755/7916227     sext [5]
+                0.00    0.00  166815/166815      extract_instruction_data [2]
+[9]      0.0    0.00    0.00  166815         extract_u_instruction_data [9]
+                0.00    0.00  166815/791769      sext [8]
 -----------------------------------------------
-                0.04    0.13 1666657/1666657     extract_instruction_data [2]
-[8]      5.2    0.04    0.13 1666657         extract_s_instruction_data [8]
-                0.13    0.00 1666657/7916227     sext [5]
+                0.00    0.00  166725/166725      extract_instruction_data [2]
+[10]     0.0    0.00    0.00  166725         extract_s_instruction_data [10]
+                0.00    0.00  166725/791769      sext [8]
 -----------------------------------------------
-                0.00    0.13 1666273/1666273     extract_instruction_data [2]
-[9]      4.0    0.00    0.13 1666273         extract_u_instruction_data [9]
-                0.13    0.00 1666273/7916227     sext [5]
+                0.00    0.00  166615/166615      extract_instruction_data [2]
+[11]     0.0    0.00    0.00  166615         extract_r_instruction_data [11]
 -----------------------------------------------
-                0.00    0.13 1665094/1665094     extract_instruction_data [2]
-[10]     3.9    0.00    0.13 1665094         extract_j_instruction_data [10]
-                0.13    0.00 1665094/7916227     sext [5]
+                0.00    0.00  166585/166585      extract_instruction_data [2]
+[12]     0.0    0.00    0.00  166585         extract_j_instruction_data [12]
+                0.00    0.00  166585/791769      sext [8]
 -----------------------------------------------
-                0.00    0.10 1250448/1250448     extract_instruction_data [2]
-[11]     3.0    0.00    0.10 1250448         extract_i_instruction_data [11]
-                0.10    0.00 1250448/7916227     sext [5]
+                0.00    0.00  166292/166292      extract_instruction_data [2]
+[13]     0.0    0.00    0.00  166292         extract_b_instruction_data [13]
+                0.00    0.00  166292/791769      sext [8]
 -----------------------------------------------
-                0.06    0.00 18335534/18335534     print_instruction [6]
-[12]     1.8    0.06    0.00 18335534         get_register_name [12]
+                0.00    0.00  125352/125352      extract_instruction_data [2]
+[14]     0.0    0.00    0.00  125352         extract_i_instruction_data [14]
+                0.00    0.00  125352/791769      sext [8]
 -----------------------------------------------
-                0.06    0.00 1666901/1666901     extract_instruction_data [2]
-[13]     1.7    0.06    0.00 1666901         extract_r_instruction_data [13]
------------------------------------------------
-                0.01    0.00  416872/416872      extract_instruction_data [2]
-[14]     0.3    0.01    0.00  416872         extract_ishift_instruction_data [14]
+                0.00    0.00   41616/41616       extract_instruction_data [2]
+[15]     0.0    0.00    0.00   41616         extract_ishift_instruction_data [15]
 -----------------------------------------------
 
  This table describes the call tree of the program, and was sorted by
@@ -211,8 +215,8 @@ notice and this notice are preserved.
 
 Index by function name
 
-   [7] extract_b_instruction_data [10] extract_j_instruction_data [4] instruction_lookup
-  [11] extract_i_instruction_data [13] extract_r_instruction_data [1] main
-   [3] extract_instruction     [8] extract_s_instruction_data [6] print_instruction
-   [2] extract_instruction_data [9] extract_u_instruction_data [5] sext
-  [14] extract_ishift_instruction_data [12] get_register_name
+  [13] extract_b_instruction_data [12] extract_j_instruction_data [6] get_register_name
+  [14] extract_i_instruction_data [11] extract_r_instruction_data [4] instruction_lookup
+   [1] extract_instruction    [10] extract_s_instruction_data [7] print_instruction
+   [2] extract_instruction_data [9] extract_u_instruction_data [8] sext
+  [15] extract_ishift_instruction_data [5] get_key_from_type
