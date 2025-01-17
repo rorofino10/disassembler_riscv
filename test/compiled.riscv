@@ -1,0 +1,10 @@
+add s1, s9, s2
+auipc t4, 0xa3400
+jal tp, -202440
+and a2, a1, s0
+lui t4, 0x8d400
+jal s8, -317512
+sw zero, 2047(a5)
+auipc s7, 0x78600
+or s9, a0, t4
+jal t6, 970474

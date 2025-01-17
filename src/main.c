@@ -16,13 +16,13 @@ void set_in_out(FILE **ifp, FILE **ofp, int argc, char **argv)
         break;
 
     case 3:
-        if ((*ifp = fopen(argv[2], "w")) == NULL)
+        if ((*ofp = fopen(argv[2], "w")) == NULL)
         {
             fprintf(stderr, "%s: can't open file %s\n", prog_name, argv[2]);
             exit(EXIT_FAILURE);
         };
     case 2:
-        if ((*ofp = fopen(argv[1], "r")) == NULL)
+        if ((*ifp = fopen(argv[1], "r")) == NULL)
         {
             fprintf(stderr, "%s: can't open file %s\n", prog_name, argv[1]);
             exit(EXIT_FAILURE);
