@@ -3,12 +3,12 @@
 #include "instructions.h"
 #include "qol.h"
 
-void set_in_out(FILE *ifp, FILE *ofp, int argc, char **argv)
+void set_in_out(FILE **ifp, FILE **ofp, int argc, char **argv)
 {
     const char *prog_name = argv[0];
 
-    ifp = stdin;
-    ofp = stdout;
+    *ifp = stdin;
+    *ofp = stdout;
 
     switch (argc)
     {
@@ -16,13 +16,13 @@ void set_in_out(FILE *ifp, FILE *ofp, int argc, char **argv)
         break;
 
     case 3:
-        if ((ifp = fopen(argv[2], "w")) == NULL)
+        if ((*ifp = fopen(argv[2], "w")) == NULL)
         {
             fprintf(stderr, "%s: can't open file %s\n", prog_name, argv[2]);
             exit(EXIT_FAILURE);
         };
     case 2:
-        if ((ofp = fopen(argv[1], "r")) == NULL)
+        if ((*ofp = fopen(argv[1], "r")) == NULL)
         {
             fprintf(stderr, "%s: can't open file %s\n", prog_name, argv[1]);
             exit(EXIT_FAILURE);
@@ -43,13 +43,13 @@ int main(int argc, char **argv)
 
     FILE *ifp, *ofp;
 
-    set_in_out(ifp, ofp, argc, argv);
+    set_in_out(&ifp, &ofp, argc, argv);
     while ((status = fscanf(ifp, "%x", &buffer)) == 1)
     {
 
         InstructionData instruction_data;
         extract_instruction_data(buffer, &instruction_data);
-        print_instruction(ifp, &instruction_data);
+        print_instruction(ofp, &instruction_data);
     }
     if (status == 0)
     {
