@@ -3,49 +3,59 @@
 #include "instructions.h"
 #include "qol.h"
 
-int main(int argc, char **argv)
+void set_in_out(FILE *ifp, FILE *ofp, int argc, char **argv)
 {
-    __uint32_t buffer;
-    int status;
-    const char *prog = argv[0];
-    FILE *fp_in = stdin;
-    FILE *fp_out = stdout;
+    const char *prog_name = argv[0];
+
+    ifp = stdin;
+    ofp = stdout;
+
     switch (argc)
     {
     case 1:
         break;
 
     case 3:
-        if ((fp_out = fopen(argv[2], "w")) == NULL)
+        if ((ifp = fopen(argv[2], "w")) == NULL)
         {
-            fprintf(stderr, "%s: can't open file %s\n", prog, argv[2]);
+            fprintf(stderr, "%s: can't open file %s\n", prog_name, argv[2]);
             exit(EXIT_FAILURE);
         };
     case 2:
-        if ((fp_in = fopen(argv[1], "r")) == NULL)
+        if ((ofp = fopen(argv[1], "r")) == NULL)
         {
-            fprintf(stderr, "%s: can't open file %s\n", prog, argv[1]);
+            fprintf(stderr, "%s: can't open file %s\n", prog_name, argv[1]);
             exit(EXIT_FAILURE);
         };
         break;
     default:
-        fprintf(stderr, "%s: invalid amount of arguments\n", prog);
+        fprintf(stderr, "%s: invalid amount of arguments\n", prog_name);
         exit(EXIT_FAILURE);
         break;
     }
+}
 
-    while ((status = fscanf(fp_in, "%x", &buffer)) == 1)
+int main(int argc, char **argv)
+{
+    __uint32_t buffer;
+    int status;
+    const char *prog_name = argv[0];
+
+    FILE *ifp, *ofp;
+
+    set_in_out(ifp, ofp, argc, argv);
+    while ((status = fscanf(ifp, "%x", &buffer)) == 1)
     {
 
         InstructionData instruction_data;
         extract_instruction_data(buffer, &instruction_data);
-        print_instruction(fp_out, &instruction_data);
+        print_instruction(ifp, &instruction_data);
     }
     if (status == 0)
     {
-        fprintf(stderr, "%s: invalid formatting found.\n", prog);
+        fprintf(stderr, "%s: invalid formatting found.\n", prog_name);
     }
-    fclose(fp_in);
-    fclose(fp_out);
+    fclose(ifp);
+    fclose(ofp);
     return 0;
 }
